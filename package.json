@@ -1,0 +1,35 @@
+{
+  "name": "starborne-spy-parser",
+  "description": "Parser for Starborne Spy Reports",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf ./lib && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrMysterius/starborne-spy-parse.git"
+  },
+  "keywords": [
+    "Starborne",
+    "Spy",
+    "Report",
+    "NPM",
+    "Module",
+    "Parser"
+  ],
+  "author": "MrMysterius",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MrMysterius/starborne-spy-parse/issues"
+  },
+  "homepage": "https://github.com/MrMysterius/starborne-spy-parse#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.23",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}

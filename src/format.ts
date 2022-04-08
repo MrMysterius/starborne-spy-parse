@@ -3,9 +3,10 @@ export function format(rawReport: string): string {
 
   const matches = rawReport.matchAll(/^[\w ]+: \n/gm);
   const replacements: Replacement[] = [];
-  let match: IteratorResult<RegExpMatchArray, any>;
+  let match: IteratorResult<RegExpMatchArray, any> = { done: false, value: [] };
 
-  while ((match = matches.next())) {
+  while (!match.done && (match = matches.next())) {
+    if (!match.value) continue;
     const original = match.value[0] as string;
 
     replacements.push({ original: original, new: original.replace(/ \n$/g, "\n") });

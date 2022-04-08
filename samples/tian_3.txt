@@ -1,0 +1,49 @@
+Spy Report on hex (-80,20) Optimus owned by playerProfile(MArtin0510) MArtin0510 completed 3 days, 7 hours and 34 minutes ago.
+Spies had a total scan strength of 30(base) + 6(roll) = 36, against a spy defense rating of 40.
+Our spying operation remained undetected.
+
+Capture Defense: 260/260
+
+Station Resources: 
+Metal 0     Gas 0     Crystal 0
+
+Cards: 
+cardTooltip(2010) Ionization Chamber, cardTooltip(2007) Flare Monitors, cardTooltip(2005) Control Suite.
+
+
+Station Labor: 
+Labor 594
+Buildings: 
+Living Quarters - Level: unknown
+Metal Refinery - Level: unknown
+Gas Refinery - Level: unknown
+Crystal Refinery - Level: unknown
+Military Barracks - Level: unknown
+Search and Rescue HQ - Level: unknown
+Container Port - Level: unknown
+Docking Bay - Level: unknown
+Cadet School - Level: unknown
+Station Hall - Level: unknown
+Warehouse - Level: unknown
+Sector Command - Level: unknown
+Relocation Bureau - Level: unknown
+Outpost Management Services - Level: unknown
+Industrial Complex - Level: unknown
+Colonial Relay - Level: unknown
+MIC Offices - Level: unknown
+
+Station Hidden Resources: 
+None
+
+Outposts: 
+Mining Facility - Level ??
+
+Fleets: 
+Industrial 
+
+Hangar: 
+Nemo (Corvette) 19
+Essex (Industrial) 55
+Faust (Patrol Ship) 15
+
+Could not get reliable reading on building or outpost levels or ships in fleets.

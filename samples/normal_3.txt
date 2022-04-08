@@ -1,0 +1,44 @@
+Spy Report on hex (-14,-170) Scorpio owned by playerProfile(IronCrow) IronCrow  [TGE] completed 1 seconds ago.
+Spies had a total scan strength of 32(base) + 4(roll) = 36, against a spy defense rating of 40.
+Our spying operation remained undetected.
+
+Capture Defense: 168/168
+
+Station Resources: 
+Metal 19224     Gas 32935     Crystal 26006
+
+Station Labor: 
+Labor 1140
+Buildings: 
+Living Quarters - Level: unknown
+Metal Refinery - Level: unknown
+Gas Refinery - Level: unknown
+Crystal Refinery - Level: unknown
+Trailer Manufacturing - Level: unknown
+Fleet Docks - Level: unknown
+Search and Rescue HQ - Level: unknown
+Military Barracks - Level: unknown
+Station Hall - Level: unknown
+Military Hangars - Level: unknown
+Cadet School - Level: unknown
+Navy Academy - Level: unknown
+Barricades - Level: unknown
+
+Station Hidden Resources: 
+None
+
+Outposts: 
+Missile Battery - Level ??
+Mining Facility - Level ??
+
+Fleets: 
+Corvette 
+Patrol Ship 
+Patrol Ship 
+Frigate 
+Scout 
+
+Hangar: 
+None
+
+Could not get reliable reading on building or outpost levels or ships in fleets.

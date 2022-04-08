@@ -1,0 +1,67 @@
+Sheep made spy report!
+Spy Report on hex (-195,-90) Mutton Chop owned by playerProfile(Warden) Warden [SNN] completed 9 minutes ago.
+Spies had a total scan strength of 52(base) + 17(roll) = 69, against a spy defense rating of 61.
+Our spying operation remained undetected.
+
+Capture Defense: 24/200
+
+Station Resources:
+Metal 48422 Gas 55512 Crystal 23961
+
+Cards:
+cardTooltip(2010) Ionization Chamber, cardTooltip(2029) Mining Robots, cardTooltip(2027) Crystal Vault.
+
+
+Station Labor:
+Labor 1114
+Buildings:
+Living Quarters - Level: 10
+Metal Refinery - Level: 10
+Gas Refinery - Level: 10
+Crystal Refinery - Level: 10
+Civic Intelligence - Level: 1
+Zirachi Brothers - Level: 1
+RG Consortium - Level: 1
+Military Barracks - Level: 10
+Search and Rescue HQ - Level: 1
+Implant Clinic - Level: 1
+Docking Bay - Level: 1
+Docking Services - Level: 10
+Military Hangars - Level: 10
+Frachead Assembly - Level: 10
+Barricades - Level: 10
+Internal Affairs - Level: 1
+Sector Command - Level: 1
+MIC Offices - Level: 10
+Campaign Directorate - Level: 1
+Industrial Complex - Level: 1
+
+Construction Queues:
+Building Construction Queue:
+Upgrading 0 %
+Orbital Synfonica - Level: 1
+
+Fleet Construction Queue:
+Progress: 95 %
+79 Frigates
+101 Frigates
+101 Frigates
+
+Station Hidden Resources:
+None
+
+Outposts:
+Heavy Ship Assembly - Level 5 - Operational
+Mining Facility - Level 1 - Operational
+Logistics Hub - Level 2 - Operational
+Missile Battery - Level 1 - Operational
+
+Fleets:
+200 Dreadnoughts
+Cards: cardTooltip(1004) Pulse Laser, cardTooltip(1078) AP Rounds, cardTooltip(1001) Fleet Cadet, cardTooltip(1020) Auto-Aim System.
+From playerProfile(DlimXela) DlimXela.
+
+
+Hangar:
+Austen (Frigate) 53
+Nemo (Corvette) 55

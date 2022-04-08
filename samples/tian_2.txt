@@ -1,0 +1,10 @@
+Spy Report on hex (-80,22) Marauder Camp owned by Marauder Camp completed 3 days, 18 hours and 3 minutes ago.
+Spies had a total scan strength of 30(base) + 1(roll) = 31, against a spy defense rating of 10.
+Our spying attempt was uncovered
+
+Spy attempts fail automatically with a bonus roll of 1.
+Spy attempts against Tianchao players fail automatically with a bonus roll between 1 and 5.
+
+Capture Defense: 40/40
+
+Your recon fleets were unable to gather any intel.

@@ -1,12 +1,15 @@
 declare interface Report {
-  isFailed: boolean;
-  isDetected: boolean;
-  isTianchao: boolean;
+  scanInfo: {
+    baseStrength: number;
+    rollStrengthBonus: number;
+    totalStrength: number;
+    defense: number;
 
-  baseStrength: number;
-  rollStrengthBonus: number;
-  totalStrength: number;
-  defense: number;
+    isFailed: boolean;
+    isFailedCritically: boolean;
+    isDetected: boolean;
+    isTianchao: boolean;
+  };
 
   station: Station;
 }
@@ -32,14 +35,11 @@ declare interface Station {
     crystal: number;
   };
 
-  foundHiddenResources: boolean;
-  hiddenRessources:
-    | {
-        metal: number;
-        gas: number;
-        crystal: number;
-      }
-    | undefined;
+  hiddenRessources?: {
+    metal: number;
+    gas: number;
+    crystal: number;
+  };
 
   labor: number;
 
@@ -47,19 +47,15 @@ declare interface Station {
 
   fleets: Fleet[];
 
-  buildingConstructionQueue:
-    | {
-        progressPercentage: number;
-        buildings: Building[];
-      }
-    | undefined;
+  buildingConstructionQueue?: {
+    progressPercentage: number;
+    buildings: Building[];
+  };
 
-  fleetConstructionQueue:
-    | {
-        progressPercentage: number;
-        fleets: Fleet[];
-      }
-    | undefined;
+  fleetConstructionQueue?: {
+    progressPercentage: number;
+    fleets: Fleet[];
+  };
 
   outposts: Outpost[];
 

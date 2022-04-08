@@ -5,8 +5,7 @@ import { readFileSync } from "fs";
 describe("[TESTS] Parsing", () => {
   test("normal_1", () => {
     const report = parse(readFileSync(join(__dirname, "../samples", "normal_1.txt"), "utf-8"));
-
-    expect(report).toBe({
+    const expectation = {
       failed: false,
       detected: false,
       station: {
@@ -78,6 +77,8 @@ describe("[TESTS] Parsing", () => {
         defense: 41,
         undetected: true,
       },
-    });
+    };
+
+    expect(report).toBe(expectation);
   });
 });

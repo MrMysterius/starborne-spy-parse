@@ -1,4 +1,3 @@
-Sheep made spy report!
 Spy Report on hex (-233,29) Moxxu3 owned by playerProfile(Moxxu) Moxxu [SNN] completed 2 seconds ago.
 Spies had a total scan strength of 70(base) + 16(roll) = 86, against a spy defense rating of 60.
 Our spying operation remained undetected.

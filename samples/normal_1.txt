@@ -1,4 +1,3 @@
-Sheep made spy report!
 Spy Report on hex (149,-206) TTTTT9 owned by playerProfile(Thibet) Thibet completed 1 seconds ago.
 Spies had a total scan strength of 40(base) + 18(roll) = 58, against a spy defense rating of 41.
 Our spying operation remained undetected.

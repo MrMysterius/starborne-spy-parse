@@ -6,6 +6,6 @@ node_modules/
 
 .vscode/
 
-# Samples
+# Dist
 
-samples/
+lib/

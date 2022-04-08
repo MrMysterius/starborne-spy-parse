@@ -6,26 +6,41 @@ describe("[TESTS] Parsing", () => {
   test("normal_1", () => {
     const report = parse(readFileSync(join(__dirname, "../samples", "normal_1.txt"), "utf-8"));
     const expectation = {
-      failed: false,
-      detected: false,
+      scanInfo: {
+        baseStrength: 40,
+        rollStrengthBonus: 18,
+        totalStrength: 58,
+        defense: 41,
+
+        isFailed: false,
+        isFailedCritically: false,
+        isDetected: false,
+        isTianchao: false,
+      },
+
       station: {
         hex: {
           x: 149,
           y: -206,
         },
+
         type: "normal",
         name: "TTTTT9",
         ownedBy: "Thibet",
+
         captureDefense: {
           current: 184,
           max: 184,
         },
+
         ressources: {
           metal: 44131,
           gas: 36340,
           crystal: 15666,
         },
+
         labor: 1044,
+
         buildings: [
           { type: "Living Quarters", level: 10 },
           { type: "Metal Refinery", level: 10 },
@@ -43,11 +58,7 @@ describe("[TESTS] Parsing", () => {
           { type: "Relocation Bureau", level: 1 },
           { type: "Campaign Directorate", level: 6 },
         ],
-        hiddenRessources: {
-          metal: 0,
-          gas: 0,
-          crystal: 0,
-        },
+
         outposts: [
           {
             type: "Missile Battery",
@@ -56,6 +67,7 @@ describe("[TESTS] Parsing", () => {
           },
           { type: "Stargate", level: 5, status: "Operational" },
         ],
+
         fleets: [
           { type: "Corvettes", amount: 800 },
           { type: "Corvettes", amount: 800 },
@@ -68,14 +80,8 @@ describe("[TESTS] Parsing", () => {
           { type: "Scouts", amount: 800 },
           { type: "Recons", amount: 187 },
         ],
+
         hangar: [],
-      },
-      scan: {
-        baseStrength: 40,
-        rollStrengthBonus: 18,
-        totalStrength: 58,
-        defense: 41,
-        undetected: true,
       },
     };
 
